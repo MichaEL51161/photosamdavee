@@ -1,0 +1,428 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.EntireBody{
+    background: rgb(15, 15, 22);
+    height: 100vh;
+    width: 100vw;
+}
+
+.EntireBody > .NavBar{
+    width: 100vw;
+    height: 10%;
+    background: rgb(29, 8, 8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.EntireBody > .NavBar > .NavBarContainer{
+    display: flex;
+color: white;
+width: 100vw;
+height: 10%;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+.EntireBody > .NavBar > .NavBarContainer > .a{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(63, 57, 57);
+    width: 100px;
+    height: 25px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 3px ;
+    margin: 0px 50px;
+}
+
+.EntireBody > .Body{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color:rgb(15, 15, 22);
+    height: 50vh;
+    width: 99vw;
+    /* margin-top: 0%; */
+}
+
+.EntireBody > .Body > .b{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    /* background: rgb(15, 15, 22); */
+    text-align: justify;
+    color: white;
+}
+.b > p{
+    height: 70%;
+}
+.b > img{
+    margin-top: 50px;
+    width: 100%;
+    height: 70vh;
+    border-radius: 15px;
+}
+.EntireBody.WholeSecondBody{
+    height: 10vh;
+    width: 100vw;
+    /* margin-bottom: 40px; */
+}
+.EntireBody > .WholeSecondBody > .SecondBody{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(27, 24, 24);
+    width: 100vw;
+    height: 30vh;
+    margin-top: 15%;
+
+}
+.EntireBody > .WholeSecondBody >.SecondBody > .c{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+    height: 70%;
+    color: whitesmoke;
+    background: rgb(37, 37, 30);
+    box-shadow:2px 5px 2px rgb(245, 119, 30);
+}
+.oned img{
+    height: 50px;
+    width: 50px;
+}
+ .EntireBody.AnotherView{
+    width: 100vw;
+    height: 100vh;
+}
+.EntireBody > .WholeSecondBody >.AnotherView{
+    height:90vh;
+    flex-wrap: wrap;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(15, 15, 22);
+}
+
+.AnotherView > .SecondBox{
+    height: 100vh;
+    /* margin-bottom: 20%; */
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(26, 26, 31);
+}
+.EntireBody > .AnotherView > .SecondBox > .d{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 45%;
+    height: 90%;
+    color: white;
+    background: #000;
+}
+.d > img{
+    height: 100%;
+    width: 100%;
+}
+
+.AntherBody{
+    height: 20vh;
+    width: 100vw;
+}
+
+.AntherBody > .ThirdBox{
+    background: rgb(15, 15, 22);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.AntherBody > .ThirdBox > .e{
+    background: rgb(63, 34, 34);
+    height: 100%;
+    width: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 5px 35px rgb(78, 78, 131);
+}
+
+
+
+
+
+
+
+/* PORTFOLIO PAGE  */
+.Entire{
+    width: 100vw;
+    height: 200vh;
+    background: #000;
+}
+.Entire > .picture{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.Entire > .picture > .fish{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    /* flex-direction: column; */
+    height: 40%;
+    width: 100%;
+    
+    /* gap: 20px; */
+}
+.Entire > .picture > .fish > .f{
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 45%;
+    border-radius: 20px;
+}
+.f > img{
+    width: 100%;
+    height: 99%;
+    border-radius: 20px;
+}
+
+@media (max-width:413px) {
+    .EntireBody{
+        background: white;
+        height: 200vh;
+        width: 100vw;
+        
+    }
+    .EntireBody > .NavBar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+ height: 10%;
+ width: 100vw;
+ justify-content: space-around;
+ font-size: 12px; 
+
+    }
+    .EntireBody > .NavBar > .NavBarContainer{
+      width: 97%;
+      height: 90%;
+      justify-content: space-around;
+      gap: 10px; 
+      display: flex;
+      align-items: center; 
+      flex-direction: column;
+    }
+    .EntireBody > .NavBar > .NavBarContainer > .a{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: rgb(63, 57, 57);
+        width: 80px;
+        height: 30px;
+        border-radius: 30px;
+        box-shadow: 2px 2px 3px ;
+    }
+
+    .EntireBody > .NavBar > .HandBurgerOpen{
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        left: 80%;
+        height: 70px;
+        width: 65px;
+    }
+    .EntireBody > .NavBar > .HandBurgerOpen > .one{
+        background: #fff;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        height: 6px;
+        width: 50%;
+    }
+
+    .oned img{
+        height: 100px;
+        width: 100px;
+        display: flex;
+        align-items: left;
+        justify-content: right;
+
+    }
+    .EntireBody > .NavBar >.NavBarContainer > .HandBurgerClose{
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        left: 80%;
+        height: 70px;
+        width: 65px;
+    } 
+    .EntireBody >.NavBar > .NavBarContainer > .HandBurgerClose > .one{
+        background: #fff;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        height: 6px;
+        width: 50%;
+        transform: rotate(30deg);
+    }
+    .EntireBody >.NavBar > .NavBarContainer > .HandBurgerClose > .two{
+        background: #fff;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        height: 6px;
+        width: 50%;
+        transform: rotate(-30deg);
+    }
+
+    .b img{
+        width: 96vw;
+    }
+
+    .EntireBody > .Body{
+        height: 180vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        background-color: white;
+    }
+
+    .EntireBody > .Body > .b{
+        flex-direction: column;
+        width: 95vw;
+        display: flex;
+        align-items: center;
+        font-size: 13px;
+        color: black;
+    }
+
+    .WholeSecondBody{
+        width: 100vw;
+        height: 50vh;
+        background: white;
+    }
+     .EntireBody> .WholeSecondBody > .SecondBody{
+        height: 90%;
+        width: 100vw;
+        flex-direction: column;
+        display: flex;
+        margin-top: 20px;
+        padding-top: 20px;
+        /* gap: 20px; */
+        background: rgb(65, 50, 50);
+        align-items: center;
+        justify-content: space-around;
+        color: white;
+    }
+    .EntireBody>.WholeSecondBody >.SecondBody > .c{
+        border: 2px solid #fff;
+        border-radius: 25px;
+        height: 100%;
+        width: 70%;
+        margin-bottom: 5%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .c{
+        background: red;
+        box-shadow: 2px 5px 5px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .AnotherView {
+        height:90vh;
+        width: 100vw;
+        margin-top: -30px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+        
+.EntireBody >.AnotherView{
+        display: flex;
+        width: 100%;
+        /* margin-bottom: 98%; */
+        /* height: 10%; */
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+.EntireBody >.AnotherView > .SecondBox >{
+    width: 100%;
+    height: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    .EntireBody >.AnotherView > .SecondBox > .d{
+        width: 99%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    .d img{
+        flex-direction: column;
+width: 99%;
+height: 100%;
+border-radius: 15px;
+    }
+
+    .AntherBody{
+        /* background-color: white; */
+        display: flex;
+        flex-direction: column;
+        height: 10vh;
+        width: 100vw;
+        margin-top: -1%;
+    }
+    .AntherBody > .ThirdBox{
+        /* height: 20%; */
+        background: black;
+    }
+
+    .AntherBody > .ThirdBox > .e{
+        background: black;
+        color: white;
+ box-shadow: 2px 5px 5px 5px;       
+        display: flex;
+        /* align-items: center; */
+        /* justify-content: center; */
+        text-align: center;
+    }
+}
