@@ -2,7 +2,22 @@
     margin: 0;
     padding: 0;
 }
+.FrontPage{
+    height: 100vh;
+    width: 100vw;
+}
+.FrontPage > .PageItem{
+    height: 100%;
+    width: 100%;
+    background-image: url(/images/DSC_850011.jpg);
+}
+.FrontPage > .PageItem > .r img{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/images/DSC_850011.jpg);
+    image-resolution: small;
 
+}
 .EntireBody{
     background: rgb(15, 15, 22);
     height: 100vh;
@@ -40,6 +55,11 @@ justify-content: space-around;
     border-radius: 30px;
     box-shadow: 2px 2px 3px ;
     margin: 0px 50px;
+}
+.NavBarContainer > .a a{
+    color: white;
+    text-decoration: none;
+    
 }
 
 .EntireBody > .Body{
@@ -274,25 +294,13 @@ justify-content: space-around;
 
     }
     .EntireBody > .NavBar > .NavBarContainer{
-      width: 97%;
-      height: 90%;
-      justify-content: space-around;
-      gap: 10px; 
-      display: flex;
-      align-items: center; 
-      flex-direction: column;
+        display:none;
+        background: rgb(46, 21, 21);
+        height: 350px;
+        top: 1%;
+        position: absolute;
+        flex-direction: column;
     }
-    .EntireBody > .NavBar > .NavBarContainer > .a{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        background-color: rgb(63, 57, 57);
-        width: 80px;
-        height: 30px;
-        border-radius: 30px;
-        box-shadow: 2px 2px 3px ;
-    }
-
     .EntireBody > .NavBar > .HandBurgerOpen{
         cursor: pointer;
         display: flex;
@@ -310,15 +318,6 @@ justify-content: space-around;
         height: 6px;
         width: 50%;
     }
-
-    .oned img{
-        height: 100px;
-        width: 100px;
-        display: flex;
-        align-items: left;
-        justify-content: right;
-
-    }
     .EntireBody > .NavBar >.NavBarContainer > .HandBurgerClose{
         cursor: pointer;
         display: flex;
@@ -330,7 +329,7 @@ justify-content: space-around;
         width: 65px;
     } 
     .EntireBody >.NavBar > .NavBarContainer > .HandBurgerClose > .one{
-        background: #fff;
+        background: #000;
         margin-bottom: 10px;
         margin-top: 10px;
         height: 6px;
@@ -338,7 +337,7 @@ justify-content: space-around;
         transform: rotate(30deg);
     }
     .EntireBody >.NavBar > .NavBarContainer > .HandBurgerClose > .two{
-        background: #fff;
+        background: #000;
         margin-bottom: 10px;
         margin-top: 10px;
         height: 6px;
@@ -346,6 +345,20 @@ justify-content: space-around;
         transform: rotate(-30deg);
     }
 
+.NavBarContainer > .a a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+    .oned img{
+        height: 100px;
+        width: 100px;
+        display: flex;
+        align-items: left;
+        justify-content: right;
+
+    }
     .b img{
         width: 96vw;
     }
